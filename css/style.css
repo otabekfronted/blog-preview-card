@@ -1,0 +1,122 @@
+/* figtree-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/figtree-v5-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/figtree-v5-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/figtree-v5-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    object-fit: cover;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+h1 {
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    background: #f4d04e;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 24px;
+}
+
+/*  */
+.blog-card {
+    width: 384px;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 8px 8px 0px 0px #000000;
+    border-radius: 20px;
+}
+.blog-card__img {
+    margin-bottom: 24px;
+}
+.blog-card__category {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.blog-card__btn {
+    border-radius: 4px;
+    padding: 4px 12px;
+    background-color: #f4d04e;
+    width: 82px;
+    color: #111;
+    font-weight: 800;
+    font-family: "Figtree";
+}
+.blog-card__published {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: "Figtree";
+
+}
+.blog-card__title {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    font-family: "Figtree";
+
+    &:hover {
+        color: #f4d04e;
+        cursor: pointer;
+    }
+}
+.blog-card__dectription {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #7f7f7f;
+    font-family: "Figtree";
+
+}
+.blog-card__author {
+    margin-top: 24px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 12px;
+}
+.blog-card__author-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
